@@ -36,7 +36,7 @@ struct Debug {
     }
 
     template<typename T>
-    static string str(const T& a) { return to_string(a); };
+    static string str(const T& a) { return to_str(a); };
 
     template<typename T>
     static string str(const vector<T>& v) {
